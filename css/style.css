@@ -1,0 +1,390 @@
+
+@media only screen and(max-width:750px) {
+}
+@media only screen and(max-width:1200px) {
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   display: flexbox;
+   flex-wrap: wrap;
+   background-color: #C5D8A4;
+
+}
+.grid container{
+    display: grid;
+    grid-template-areas: "menu menu header header header header"
+    "menu menu main main main main"
+    "menu menu footer footer footer footer" ;
+}
+.grid container > div{
+text-align: center;
+padding: 20px;
+}
+.item1{
+    grid-area: menu;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    border: none;
+   background-color: #BB9981;
+    padding: 20px;
+   
+}
+.myimg{
+    border-radius:50%;
+    border: solid;
+    border-color: #534340;
+   margin-bottom: 20px;
+ margin-left: 30px;
+ animation-name: item2;
+ animation-duration: 2s;
+ animation-direction: alternate;
+   
+}
+.myimg:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+h3{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #C5D8A4;
+    background-color: #534340;
+    text-align: center;
+    border-radius: 20px; 
+    animation: shake 0.5s;
+animation-duration: 3s;
+}
+.contactImg{
+direction: ltr;
+}
+ul{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li{
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.hobbiesMargin{
+    margin-left: 30px;
+}
+.item2{
+    grid-area: header;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+ left:293px;
+ width:78% ;
+ height:20%;
+ text-align: center;
+ animation-name: item2;
+ animation-duration: 2s;
+ animation-direction: alternate;
+
+}
+
+.Enwan{
+    font-size: 110px;
+}
+.Enwan2{
+    display: flex;
+    margin-left: 50px;
+}
+hr{
+    width:82% ;
+    size:"3" ;
+    background-color: #534340;
+}
+.item3{
+grid-area: main;
+width: 30%;
+height:20%;
+position: absolute;
+top: 230px;
+left: 250px;
+color: #333333;
+}
+.aboutMe{
+    width: 300px;
+    height: 34px;
+background-color: #534340;
+margin-left: 100px;
+border-radius: 15px;
+color: #C5D8A4;
+text-align: center;
+animation: shake 0.5s;
+animation-duration: 3s;
+}
+.aboutMe:hover{
+    background-color: #9D5353;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+.pAboutMe{
+margin-left: 120px;
+font-size: 18px;
+padding-top: 20px;
+}
+
+.item4{
+    grid-area: main;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 230px;
+    left: 800px;
+    color: #333333;
+}
+.Hcareer{
+    width: 300px;
+    height: 34px;
+background-color: #534340;
+margin-left:40px;
+border-radius: 15px;
+color: #C5D8A4;
+text-align: center;
+animation: shake 0.5s;
+animation-duration: 3s;
+}
+.Hcareer:hover{
+    background-color: #9D5353;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+.pCareer{
+padding-top: 20px;
+font-size: 18px;
+margin-left: 65px;
+}
+
+
+.item5{
+grid-area: main;
+width: 30%;
+height:20%;
+text-align: center;
+position: absolute;
+top: 460px;
+left: 320px;
+color: #333333;
+}
+.education{
+width: 300px;
+height: 34px;
+background-color: #534340;
+margin-left:40px ;
+border-radius: 15px;
+color: #C5D8A4;
+ margin-bottom: 20px;
+ animation: shake 0.5s;
+animation-duration: 3s;
+}
+
+.Peducation{
+    
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.FullMargine{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.item6{
+grid-area: main;
+width: 30%;
+height:20%;
+position: absolute;
+top: 460px;
+left: 800px;
+color: #333333;
+}
+.experience{
+margin-left: 60px;
+width: 300px;
+height: 34px;
+background-color: #534340;
+border-radius: 15px;
+color: #C5D8A4;
+margin-bottom: 20px;
+text-align: center;
+animation: shake 0.5s;
+animation-duration: 3s;
+}
+.experience:hover{
+    background-color: #9D5353;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+    
+}
+.Pexperience{
+   margin-left: 70px;
+   font-size: 18px;
+}
+.item7{
+    grid-area: main;
+    width: 30%;
+    height:20%;
+    position: absolute;
+    top: 460px;
+    left: 362px;
+    color: #333333;
+}
+.skills{
+    width: 300px;
+    height: 34px;
+    margin-top:300px;  
+    background-color: #534340;
+    color: #C5D8A4;
+    border-radius: 15px;
+    margin-right:190px;
+    text-align: center; 
+    animation: shake 0.5s;
+animation-duration: 3s;
+}
+.skills:hover{
+    background-color: #9D5353;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+.ULskills{
+margin-left: 70px;
+list-style: circle;
+font-size: 18px;
+
+}
+span{
+    font-weight: bolder;
+}
+.item8{
+    grid-area:main;
+    width: 300px;
+    height: 300px;
+    background-color: #534340;
+    color: #C5D8A4;
+    position: absolute;
+   top:750px;
+    left: 900px;
+    border-radius: 50%;
+    border: solid;color: #BB9981;
+}
+.item8:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+.contactus{
+    padding-top: 70px;
+    text-align: center;
+
+}
+.ButonContact{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #BB9981;
+    font-weight: bolder;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px #BB6464;
+}
+.hrefContact{
+   color: #534340;
+}
+.item9{
+    grid-area: footer;
+   
+    position: absolute;
+    top: 1100px;
+    left: 550px; 
+}
+.webImg{
+border: solid;
+border-color: #BB9981;
+border-radius: 30px;
+}
+
+svg{
+    width: 1000px;
+    margin-left: 200px;
+  position: absolute;
+ top: 1270px;
+ left: 90px;
+}
+@keyframes shake{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes item2{
+    0%{ 
+        margin-left: 100%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+
+h3:hover{
+    background-color: #9D5353;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+    }
+.Enwan{
+    animation-name: enwan;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes enwan{
+    0%{
+       color: #333333;
+    }
+    100%{
+       color: #BB6464;
+    }
+}
+h5{
+    animation-name: webDeveloper;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes webDeveloper{
+    0%{
+     margin-left:5px; 
+    }
+    20%{
+        right: 10px;
+    }
+    50%{
+        margin-left: 20px;
+    }
+}
+@keyframes education{
+    0%{
+        color: #333333;
+    }
+    100%{
+        color: #BB6464;
+    }
+}

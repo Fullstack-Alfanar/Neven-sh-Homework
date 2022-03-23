@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C5D8A4;
+    justify-content: center;
+    
+}
+.forms{
+
+  font-size: 25px;
+}
+.input1{
+     border-radius: 10px;
+     background-color: #BB9981;
+     margin-left: 30px;
+}
+.inputem{
+    margin-left: 100px;
+}
+.COLORinput{
+    background-color:#F4FCD9;
+    border-radius: 10px;
+}
+
+.conatctUs{
+    width: 190px;
+    height: 50px;
+    background-color:#BB9981 ;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 15px;
+}
